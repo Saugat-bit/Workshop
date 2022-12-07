@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Montserrat";
+}
+.navigation{
+    height: 50vh;
+    width: %;
+    background-image: url(saugat_dada.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    font-size: 30px;
+    color: white;
+}
+span{
+    color: #c7bca1;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 40px,10px;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: aqua;
+}
+button {
+    background-color: bisque;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: medium;
+    color:black;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: blueviolet;
+}
